@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #ccc;
+    overflow-x: hidden !important;
+}
+@font-face {
+    font-family: bold;
+    src: url(fonts/GOLDLEAF\ BOLD\ PERSONAL\ USE.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.c-project{
+    color: #ff9900 !important;
+}
+.c-black{
+    color: black !important;
+}
+.text-none{
+    text-decoration: none;
+    color: #ddd;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.h-100{
+    height: 100% !important;
+}
+    ::-webkit-scrollbar{
+        width: 5px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: white;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: rgba(0, 0, 0, 0.781);
+        height: 10px;
+    }
+
+
+
+
+    ul li {
+      display: inline-block;
+        list-style: none !important;
+    } 
+.btn-fixed{
+    border: 0px;
+    background-color: #182333;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 5px;
+    position: fixed;
+    z-index: 11111;
+    right: 0%;
+    text-align: center;
+    top: 40%;
+    width: auto;
+}
+.header-info{
+    background: #182333;
+    position: relative;
+    padding-top: 6px;
+    font-size: 10px; 
+  
+    transform: translateY(-7px);   
+}
+.header .icon-header{
+height: 25px;
+}
+.sele{
+    font-size: 25px;
+    display: none;
+    
+}
+.selects{
+   position: absolute;
+   top:30%;
+   left: 80%;
+}
+.support-icon{
+    transform: translateY(10px);
+}
+.links-header:hover{
+color: #ddd;
+}
+.links-header{
+    font-size: 15px;
+}
+.header_info
+{
+    transform: translateX(-25px);
+}
+.header_info ul{
+    overflow: hidden;
+}
+
+.Monn-icon{
+    transform: translateY(8px);
+}
+.header-it{
+    background-color: #ff9900;
+    transform: translateY(-5px);   
+}
+
+
+/*    nav bar  */  
+
+
+.nav-link{
+    color: #000000!important;
+  font-family: bold;
+    font-size: 25px !important;
+    padding: 10px 0px;
+    transition: all 0.7s;
+}
+body  .navbar ul li .nav-link:hover{
+    color: #ff9900 !important;
+    border-bottom: solid #ff9900;
+    padding: 0;
+    margin: 0;
+}
+body .navbar{
+    transform: translateY(-7px);   
+    padding: 6px;
+    position: sticky !important;
+    z-index: 1000;
+    top: 0;
+}
+.navbar-logo{
+    height: 60px;
+}
+.btn-navbar{
+    background-color: transparent;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: inset 0 0 10px #c7c7c7;
+    transition: all 0.5s;
+}
+.btn-navbar:hover{
+    background-color: #ff9900;
+    color: white;
+    box-shadow: none;
+}
+.navbar ul li {
+    margin: 0px 5px;
+}
+
+.navbar ul li a{
+color: black;
+    font-size: 20px;
+    font-weight: 5000;
+}    
+
+
+/*       Home       */
+
+
+.home{
+    /* height: 100vh; */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ) ,  url(../image/home/taxi-clone-script-bg.jpg)   ;
+    background-size: cover;
+    transform: translateY(-7px);
+    background-position: top;
+}
+.home-inner{
+    padding: 100px 30px;
+    color: white;
+}
+.font-info{
+  font-family: bold;
+  font-size: 60px !important;
+ overflow: hidden;
+
+}
+.home-txt{
+  font:17px Montserrat ,sans-serif;
+  line-height: 25px;
+font-weight: 500;
+
+}
+body .goog-te-combo{
+background-color: transparent;
+border: hidden;
+border-bottom:0.5px  solid black;
+outline: hidden;
+
+}
+.color-info{
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+.home-img{
+    height: 80%;
+    width: 100%;
+}
+.applaction-home {
+    display: inline-block;
+}
+.applaction-home img{
+    width: 150px;
+    margin-right: 25px;
+}
+.applaction{
+    padding: 0;
+}
+
+@media only screen and (max-width: 660px){
+  body  .navbar{
+      padding: 0px;
+    }
+   
+    .header-info ul li a img{
+        height: 30px !important;
+    }
+    .applaction-home img {
+         width: 90% !important;
+     margin: 0;
+     padding: 0;
+    }
+
+    .home-txt{
+        font-size: 15px;
+        margin: 8px 0px !important;
+        padding: 0 !important;
+        line-height: 25px;
+    }
+    .xx1{
+        margin-left: 30px;
+    }
+    .applaction{
+        display: flex;
+    }
+    .home-inner{
+        padding: 10px;
+    }
+
+}
+
+
+/*   section 1 */
+body .section1 .header-section1{
+    font-family: bold;
+    font-size: 50px;
+}
+.btn-tab{
+    background-color: transparent;
+    border: none;
+    background-color: #333333;
+color: white;
+padding: 15px;
+}
+
+.btn-tabs1{
+    border-radius: 0px 100px 100px 100px;
+}
+.btn-tabs2{
+    border-radius: 100px 100px 100px  0px;
+}
+
+
+.active-section1{
+    background-color: #ff9900 !important;
+}
+.section1 ul li a{
+    color: #A0ACCC;
+}
+.section1 ul li a img{
+    height: 35px;
+}
+
+/*               hover on tabs               */
+
+.section1 ul li{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f1f5ff42;
+    box-shadow: 5px 5px 10px #A0ACCC ;
+    transition: all 0.7s;
+    
+}
+.section1 ul li:hover{
+    box-shadow: inset 5px 5px 10px #A0ACCC ;
+}
+
+/*               /hover on tabs               */
+
+.active2-section1{
+    box-shadow: inset 5px 5px 10px #A0ACCC !important ;
+}
+.section1-click{
+    margin-top: 100px;
+}
+.section1-click img{
+    height: 500px;
+}
+.section1-enfo{
+    background-color: #ff9900;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    border-radius: 0px 100px 0px 0px;
+}
+.xxy{
+    position: relative;
+}
+.section1-enfo::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    z-index: 10000000000000000;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-right: 26px solid #f7941d;
+    border-bottom: 24px solid transparent;    
+}
+
+/*  section 2 */
+.section2{
+    background-color: #333333;
+    padding: 20px;
+}
+.se2-txt{
+    color: #eee;
+    font-size: 25px;
+}
+.se2-txt span{
+    display: block;
+    border-bottom:solid #ff9900 2px;
+    height: 1px;
+    width: 60px;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+.images{
+    height: 220px;
+    width: 100%;
+    border-radius: 10px 10px;
+    transition: all 1s;
+
+}
+.images:hover{
+    transform: scale(1.1);
+}
+.se2-header1{
+    overflow: hidden;
+}
+
+.txt-se2{
+    color: #333333;
+    background-color: white;
+    padding: 10px; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*  section 2 */
